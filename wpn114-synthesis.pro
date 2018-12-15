@@ -9,6 +9,7 @@ else {
     QML_MODULE_DESTDIR = $$[QT_INSTALL_QML]
 }
 
+QMLDIR_FILES += $$PWD/qml/qmldir
 for(FILE,QMLDIR_FILES) {
     QMAKE_POST_LINK += $$quote(cp $${FILE} $${DESTDIR}$$escape_expand(\n\t))
 }
