@@ -1,5 +1,5 @@
 module WPN114.Audio.Synthesis
-typeinfo plugins.qmltypes
+typeinfo synthesis.qmltypes
 plugin WPN114-synthesis
 classname qml_plugin
 depends WPN114.Audio 1.0

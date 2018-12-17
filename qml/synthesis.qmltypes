@@ -1,0 +1,11 @@
+import QtQuick.tooling 1.2
+
+Module
+{
+    Component
+    {
+        name: "Ashes"
+        prototype: "StreamNode"
+        exports: ["WPN114.Audio.Synthesis/PinkNoise 1.0"]
+    }
+}
