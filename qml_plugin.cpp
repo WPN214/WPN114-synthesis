@@ -8,5 +8,5 @@ void qml_plugin::registerTypes(const char *uri)
 {
     Q_UNUSED    ( uri );
 
-    qmlRegisterType<Ashes, 1> ( "WPN114.Audio.Synthesis", 1, 0, "Ashes" );
+    qmlRegisterType<Ashes, 1> ( "WPN114.Audio.Synthesis", 1, 0, "PinkNoise" );
 }

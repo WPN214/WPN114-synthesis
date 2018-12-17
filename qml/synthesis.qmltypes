@@ -4,7 +4,7 @@ Module
 {
     Component
     {
-        name: "Ashes"
+        name: "PinkNoise"
         prototype: "StreamNode"
         exports: ["WPN114.Audio.Synthesis/PinkNoise 1.0"]
     }
