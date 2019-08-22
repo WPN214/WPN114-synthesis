@@ -1,12 +1,16 @@
 #include "qml_plugin.hpp"
 
-#include <source/ashes/ashes.hpp>
+#include <source/pinknoise/pinknoise.hpp>
 #include <QQmlEngine>
 #include <qqml.h>
 
-void qml_plugin::registerTypes(const char *uri)
+//-------------------------------------------------------------------------------------------------
+void
+qml_plugin::registerTypes(const char *uri)
+//-------------------------------------------------------------------------------------------------
 {
-    Q_UNUSED    ( uri );
+    Q_UNUSED(uri)
 
-    qmlRegisterType<Ashes, 1> ( "WPN114.Audio.Synthesis", 1, 0, "PinkNoise" );
+    qmlRegisterType<Ashes, 1>
+    ("WPN114.Audio.Synthesis", 1, 1, "PinkNoise" );
 }
